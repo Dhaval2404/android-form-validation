@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FormValidation</string>
+    <string name="action_settings" tools:ignore="ExtraTranslation">Settings</string>
+    <string name="error_empty_first_name">Please enter valid First Name</string>
+    <string name="error_invalid_email">Please enter valid Email</string>
+    <string name="error_empty_last_name">Please enter valid Last Name</string>
+</resources>
