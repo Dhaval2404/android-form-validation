@@ -38,8 +38,8 @@
                     android:id="@+id/lastNameEt"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="10dp"
+                    android:layout_weight="1"
                     android:hint="Last Name" />
 
             </LinearLayout>
@@ -53,11 +53,13 @@
                 android:inputType="phone"
                 android:maxLines="10" />
 
+            <!-- Set app:errorIconDrawable="@null" to Hide Error Icon-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/emailEtLyt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="16dp"
+                app:errorIconDrawable="@null">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/emailEt"
@@ -110,11 +112,12 @@
                 android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginBottom="10dp"
-                android:padding="12dp"
                 android:onClick="onSubmitClick"
-                android:text="Submit" />
+                android:padding="16dp"
+                android:text="Register"
+                app:cornerRadius="6dp" />
 
         </LinearLayout>
 

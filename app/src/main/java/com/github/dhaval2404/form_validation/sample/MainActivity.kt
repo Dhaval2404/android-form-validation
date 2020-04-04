@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onSubmitClick(view: View) {
         if (isValidForm()) {
-            Toast.makeText(applicationContext, "Submit Form", Toast.LENGTH_SHORT).show()
+            Toast.makeText(view.context, "Submit Form", Toast.LENGTH_SHORT).show()
         }
     }
 
