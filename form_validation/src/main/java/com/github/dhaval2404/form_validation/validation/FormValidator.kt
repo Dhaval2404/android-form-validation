@@ -120,6 +120,7 @@ class FormValidator constructor() {
      *
      * @param clazz Get ViewDataAdapter class from UI Widget Class
      */
+    @Suppress("UNCHECKED_CAST")
     private fun getViewDataAdapter(clazz: Class<out View>): ViewDataAdapter<View>? {
         if (mRegistry.containsKey(clazz))
             return mRegistry[clazz] as ViewDataAdapter<View>
