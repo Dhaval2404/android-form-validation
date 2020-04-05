@@ -23,7 +23,11 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+    }
+
+    // Avoid Kotlin docs error
+    tasks.withType(Javadoc) {
+        enabled = false
     }
 }
 
