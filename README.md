@@ -24,7 +24,7 @@ Yet another UI form validation library for Android. It is highly customizable an
 1. Gradle dependency:
 
 	```groovy
-	implementation 'com.github.dhaval2404:android-form-validation:x.x.x'
+	implementation 'com.github.dhaval2404:android-form-validation:1.0'
 	```
 
 2. The **android-form-validation** configuration is created using the builder pattern.
