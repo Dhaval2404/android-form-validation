@@ -24,6 +24,10 @@ jobs:
       - name: Make Gradle executable
         run: chmod +x ./gradlew
 
+      - uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "local.properties"
+
       - name: detekt
         run: ./gradlew detekt
 
