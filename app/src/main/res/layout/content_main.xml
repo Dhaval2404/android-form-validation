@@ -32,7 +32,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:hint="First Name" />
+                    android:inputType="textPersonName"
+                    android:hint="@string/hint_first_name" />
 
                 <EditText
                     android:id="@+id/lastNameEt"
@@ -40,7 +41,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
-                    android:hint="Last Name" />
+                    android:inputType="textPersonName"
+                    android:hint="@string/hint_last_name" />
 
             </LinearLayout>
 
@@ -49,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:hint="Phone Number"
+                android:hint="@string/hint_phone_number"
                 android:inputType="phone"
                 android:maxLines="10" />
 
@@ -65,7 +67,7 @@
                     android:id="@+id/emailEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email Address"
+                    android:hint="@string/hint_email_address"
                     android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -81,7 +83,7 @@
                     android:id="@+id/passwordEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password"
+                    android:hint="@string/hint_password"
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -97,7 +99,7 @@
                     android:id="@+id/confirmPasswordEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Confirm Password"
+                    android:hint="@string/hint_confirm_password"
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -106,7 +108,7 @@
                 android:id="@+id/termsOfUseCB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="I've read and accept Terms and Condition" />
+                android:text="@string/message_terms_of_use" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSubmit"
@@ -116,7 +118,7 @@
                 android:layout_marginBottom="10dp"
                 android:onClick="onSubmitClick"
                 android:padding="16dp"
-                android:text="Register"
+                android:hint="@string/action_register"
                 app:cornerRadius="6dp" />
 
         </LinearLayout>

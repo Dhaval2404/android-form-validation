@@ -1,6 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">FormValidation</string>
     <string name="action_settings" tools:ignore="ExtraTranslation">Settings</string>
+
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <string name="message_terms_of_use">I\'ve read and accept Terms and Condition</string>
+    <string name="action_register">Register</string>
+
     <string name="error_empty_first_name">Please enter valid First Name</string>
     <string name="error_invalid_email">Please enter valid Email</string>
     <string name="error_empty_last_name">Please enter valid Last Name</string>
