@@ -26,6 +26,11 @@ import kotlinx.android.synthetic.main.content_main.*
  */
 class MainActivity : AppCompatActivity() {
 
+    companion object {
+
+        private const val PHONE_NUMBER_LENGTH = 10
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -63,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             .addField(
                 phoneNumberEt,
                 NonEmptyRule("Please enter Phone Number"),
-                LengthRule(10, "Please enter valid Phone Number")
+                LengthRule(PHONE_NUMBER_LENGTH, "Please enter valid Phone Number")
             )
             .addField(
                 termsOfUseCB,

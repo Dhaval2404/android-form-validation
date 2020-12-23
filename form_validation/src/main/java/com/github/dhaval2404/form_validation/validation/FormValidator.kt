@@ -18,7 +18,7 @@ import com.google.android.material.textfield.TextInputLayout
  * @version 1.0
  * @since 28 March 2020
  */
-class FormValidator constructor() {
+class FormValidator {
 
     companion object {
 
