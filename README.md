@@ -2,9 +2,13 @@
 
 [![Download](https://api.bintray.com/packages/dhaval2404/maven/android-form-validation/images/download.svg) ](https://bintray.com/dhaval2404/maven/android-form-validation/_latestVersion)
 [![Releases](https://img.shields.io/github/release/dhaval2404/android-form-validation/all.svg?style=flat-square)](https://github.com/Dhaval2404/android-form-validation/releases)
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=19)
 ![Language](https://img.shields.io/badge/language-Kotlin-orange.svg)
 [![PRWelcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Dhaval2404/android-form-validation)
+[![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
+![License](https://img.shields.io/github/license/Dhaval2404/android-form-validation.svg)
+![Build Status](https://github.com/Dhaval2404/android-form-validation/workflows/build%20debug/badge.svg)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-ImagePicker-green.svg?style=flat)]( https://android-arsenal.com/details/1/8098)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/Dhaval2404/android-form-validation.svg?style=social)](https://twitter.com/intent/tweet?text=Checkout%20the%20UI%20form%20validation%20library%20for%20Android.%20https%3A%2F%2Fgithub.com%2FDhaval2404%2Fandroid-form-validation)
 
 <div align="center">
