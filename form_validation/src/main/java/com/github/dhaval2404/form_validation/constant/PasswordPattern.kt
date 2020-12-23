@@ -17,4 +17,3 @@ enum class PasswordPattern(val value: String) {
     ALPHA_NUMERIC_SYMBOLS("(?=.*[a-zA-Z])(?=.*[\\d])(?=.*([^\\w]|_)).+"),
     ALPHA_NUMERIC_MIXED_CASE_SYMBOLS("(?=.*[a-z])(?=.*[A-Z])(?=.*[\\d])(?=.*([^\\w]|_)).+")
 }
-

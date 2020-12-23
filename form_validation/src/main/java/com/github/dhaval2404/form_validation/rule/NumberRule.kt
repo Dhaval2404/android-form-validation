@@ -15,5 +15,4 @@ class NumberRule : BaseRule {
     constructor(error: String) : super(error)
 
     override fun validate(text: String?) = text?.toDoubleOrNull() != null
-
 }

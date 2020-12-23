@@ -45,7 +45,5 @@ class LengthRule : BaseRule {
         fun isEqualLength(text: String?, length: Int): Boolean {
             return text?.length != null && text.length == length
         }
-
     }
-
 }

@@ -23,5 +23,4 @@ class MaxLengthRule : BaseRule {
     }
 
     override fun validate(text: String?) = text?.length != null && text.length <= mLength
-
 }

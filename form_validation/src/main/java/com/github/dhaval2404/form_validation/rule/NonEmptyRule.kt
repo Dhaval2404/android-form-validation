@@ -34,7 +34,5 @@ class NonEmptyRule : BaseRule {
         fun isNonEmpty(text: String?): Boolean {
             return !text.isNullOrBlank()
         }
-
     }
-
 }

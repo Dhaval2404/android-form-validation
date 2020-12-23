@@ -1,7 +1,6 @@
 package com.github.dhaval2404.form_validation.rule
 
 import com.github.dhaval2404.form_validation.constant.PasswordPattern
-import java.util.regex.Pattern
 
 /**
  * Validate Password, Provide PasswordPattern as per the requirement
@@ -44,6 +43,5 @@ class PasswordRule : BaseRule {
         private fun isValidPassword(pattern: PasswordPattern, password: String?): Boolean {
             return RegexRule.validate(pattern.value, password)
         }
-
     }
 }

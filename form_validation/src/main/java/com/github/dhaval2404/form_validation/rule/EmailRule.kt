@@ -26,7 +26,6 @@ class EmailRule : BaseRule {
                 "[0-9]{1,2}|25[0-5]|2[0-4][0-9]))|" +
                 "([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$"
 
-
         /**
          * Check if email is valid or not
          *

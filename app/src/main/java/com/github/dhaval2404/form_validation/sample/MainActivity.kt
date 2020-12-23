@@ -7,7 +7,12 @@ import android.widget.CheckBox
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.github.dhaval2404.form_validation.constant.PasswordPattern
-import com.github.dhaval2404.form_validation.rule.*
+import com.github.dhaval2404.form_validation.rule.CheckedRule
+import com.github.dhaval2404.form_validation.rule.EmailRule
+import com.github.dhaval2404.form_validation.rule.EqualRule
+import com.github.dhaval2404.form_validation.rule.LengthRule
+import com.github.dhaval2404.form_validation.rule.NonEmptyRule
+import com.github.dhaval2404.form_validation.rule.PasswordRule
 import com.github.dhaval2404.form_validation.validation.FormValidator
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*

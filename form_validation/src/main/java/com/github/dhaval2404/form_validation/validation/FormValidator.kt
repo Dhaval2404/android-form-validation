@@ -44,7 +44,7 @@ class FormValidator constructor() {
     private var mErrorListener: ((List<ValidationError>) -> Unit)? = null
 
     init {
-        //Add Base Widgets and Its Adapters
+        // Add Base Widgets and Its Adapters
         mRegistry[CheckBox::class.java] = CheckBoxAdapter()
         mRegistry[TextView::class.java] = TextViewAdapter()
         mRegistry[TextInputLayout::class.java] = TextInputLayoutAdapter()
@@ -100,7 +100,7 @@ class FormValidator constructor() {
                 }
             }
 
-            //Set Error
+            // Set Error
             if (status) setError(field.key, null)
         }
         setErrors(errors)
@@ -152,5 +152,4 @@ class FormValidator constructor() {
     private fun setError(view: View, error: String?) {
         getViewDataAdapter(view::class.java)?.setError(view, error)
     }
-
 }

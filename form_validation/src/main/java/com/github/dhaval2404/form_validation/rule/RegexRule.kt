@@ -14,7 +14,7 @@ class RegexRule : BaseRule {
     /**
      * Regex Pattern
      */
-    private var mRegex:String = ""
+    private var mRegex: String = ""
 
     constructor(regex: String, errorRes: Int) : super(errorRes) {
         this.mRegex = regex
@@ -54,7 +54,5 @@ class RegexRule : BaseRule {
 
             return Pattern.compile(regex).matcher(text).matches()
         }
-
     }
-
 }

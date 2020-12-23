@@ -33,63 +33,62 @@ class EmailRuleUnitTest {
 
     @Test
     fun invalidEmailCase1() {
-        //Null or Blank Value
+        // Null or Blank Value
         Assert.assertFalse(EmailRule.isEmailValid(null))
         Assert.assertFalse(EmailRule.isEmailValid(""))
     }
 
     @Test
     fun invalidEmailCase2() {
-        //invalid domain
+        // invalid domain
         Assert.assertFalse(EmailRule.isEmailValid("dhaval@gmail"))
     }
 
     @Test
     fun invalidEmailCase3() {
-        //invalid domain
+        // invalid domain
         Assert.assertFalse(EmailRule.isEmailValid("r@r"))
     }
 
     @Test
     fun invalidEmailCase4() {
-        //atleast 2 character in username
+        // atleast 2 character in username
         Assert.assertFalse(EmailRule.isEmailValid("r@r.c"))
     }
 
     @Test
     fun invalidEmailCase5() {
-        //Garbage
+        // Garbage
         Assert.assertFalse(EmailRule.isEmailValid("#@%^%#@#$@#.com"))
     }
 
     @Test
     fun invalidEmailCase6() {
-        //Missing username
+        // Missing username
         Assert.assertFalse(EmailRule.isEmailValid("@domain.com"))
     }
 
     @Test
     fun invalidEmailCase7() {
-        //Missing @
+        // Missing @
         Assert.assertFalse(EmailRule.isEmailValid("email.domain.com"))
     }
 
     @Test
     fun invalidEmailCase8() {
-        //Two @ sign
+        // Two @ sign
         Assert.assertFalse(EmailRule.isEmailValid("email@domain@domain.com"))
     }
 
     @Test
     fun invalidEmailCase9() {
-        //Leading dot in address is not allowed
+        // Leading dot in address is not allowed
         Assert.assertFalse(EmailRule.isEmailValid(".email@domain.com"))
     }
 
     @Test
     fun invalidEmailCase10() {
-        //Invalid IP format
+        // Invalid IP format
         Assert.assertFalse(EmailRule.isEmailValid("email@111.222.333.44444\t"))
     }
-
 }
